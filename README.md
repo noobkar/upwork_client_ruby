@@ -11,8 +11,7 @@ Given HTML: <div class="images"><img src="/pic.jpg"></div> Using Nokogiri how wo
 
 Method 1: Using CSS Selectors
 
-ruby
-Copy code
+
 require 'nokogiri'
 
 html = '<div class="images"><img src="/pic.jpg"></div>'
